@@ -1,3 +1,54 @@
-html, body{
+html, body {
     height: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+aside {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+
+.menu-button{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border: 5px solid black;
+}
+
+main {
+    display: flex;
+    background-color: orange;
+    flex-direction: column;
+    padding: 40px;
+    border-left: 3px solid black;
+}
+
+.threeBoxes {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    word-wrap: break-word;
+}
+
+.threeBoxes img {
+    height: 100%;
+}
+
+.threeBoxes p {
+    margin-left: 25px;
 }
