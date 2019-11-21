@@ -1,4 +1,4 @@
-html, body{
+html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -7,7 +7,7 @@ html, body{
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row; /* Eigenlijk onnodig want bij elke div waarbij je de display op flex zet staat flex-direction al op row */
     width: 100%;
@@ -15,7 +15,7 @@ nav{
     background-color: green;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
     align-items: center;    
@@ -26,22 +26,24 @@ main{
 }
 
 
-.menu-button, #foto{
+.menu-button, #foto {
     width: 100px;
     height: 50px;
     background-color: whitesmoke;
     margin: 30px;
 }
 
-img{
+img {
     width: 250px;
     height: 60%;
 }
 
-p{
+p {
     width: 200px;
     height: 150px;
-}html, body{
+}
+
+html, body {
     height: 100%;
 }
 
